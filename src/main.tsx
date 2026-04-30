@@ -1,9 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import MemoizedComponent from "./learn-hooks/MemoizedComponent.tsx";
+import "./index.css";
+import Tailwind from "./style-component/Tailwind";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <MemoizedComponent />
+    <Tailwind />
   </StrictMode>,
 );
